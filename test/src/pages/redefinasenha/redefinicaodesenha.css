@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+* {
+    margin: auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-redefinir-senha {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+}
+.div_tudo{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    background: whitesmoke;
+    height: 59vh;
+    border-radius: 1em;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf0f1; */
+
+.content {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 960px;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.content::before {
+    content: "";
+    position: absolute;
+    background-color: #3F6F8C;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    left: 0;
+}
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    /* text-transform: capitalize; */
+}
+.title-primary {
+    color: #fff;
+}

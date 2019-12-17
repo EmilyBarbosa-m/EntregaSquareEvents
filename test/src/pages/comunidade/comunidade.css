@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+* {
+    margin: auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.personalizando-input {
+    width: 30vw;
+    margin-top: 1em;
+}
+
+.foto_de_perfil{
+    width: 10vw;
+    margin-top: 1em;
+    display: flex;
+    align-items: flex-end;
+}
+
+.title-second {
+    margin-top: 3em;
+color: #3F6F8C;
+}
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.description-primary {
+    color: #fff;
+}
+.description-second {
+    color: #7f8c8d;
+}
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 47px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+}
+.btn-primary {
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: background-color .5s;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: #F28241;
+}
+.btn-second {
+    background-color: #3F6F8C;
+    border: 1px solid #3F6F8C;
+    transition: background-color .5s;
+}
+.btn-second:hover {
+    background-color: #fff;
+    border: 1px solid #F28241;
+    color: #58af9b;
+}
+.first-content {
+    display: flex;
+}

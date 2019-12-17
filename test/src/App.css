@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#hicones{
+display: flex;
+width: 2em;
+height: 2em;
+}
+
+#picones{
+    margin-top:3em;
+}
+
+
+.teste {
+    border: solid 2px black;
+}
+
+/*   ESTILIZAÇÃO DO MENU/HEADER/TOPO   */
+topo-home{
+    width: 100%;
+    height: 10%;
+    background: #fff;
+    box-shadow: 0px 2px 5px #ccc;  
+    display: flex;
+    justify-content: center;      
+}
+
+.menu-home{
+    display: flex;
+    width: 70vw;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem_logo_home{
+    width: 4vw;
+    margin-right: 49em;
+}
+
+#hlogo{
+    display: none;
+}
+
+#ul-home{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.home-as{
+    font-size: 1em;
+    text-decoration: none;
+    /* padding: 1.70em 2em; */
+    color:  #000000;
+}
+
+
+
+/*   ESTILIZAÇÃO DO BANNER DA HOME   */
+#home_banner{
+    background-image: url("./assets/img/1_9YTwtT1aHKDqq83DqyBzrw.png");
+    height: 73vh; /*altura da imagem*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; /* irá cobrir toda a section*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*    ESTILIZAÇÃO DAS  CATEGORIAS  DA HOME  */
+#categorias_home{
+    display: flex;
+    flex-direction: column; 
+    /* padding: 40px; */
+    
+}
+
+.categorias_home_boxs{
+    display: flex;
+}
+.categorias_home_boxs >div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 19em
+}
+
+.img-icones-home{
+    margin: 15px;
+    /* justify-content: center; */
+    display: flex;
+    /* align-items: center; */
+    width: 30px;
+    padding: 5px 0;
+}
+
+#categorias_home, h2{
+    text-align: center;
+    color: #f4511e;
+    
+}
+
+
+#categorias_home, p{
+    color: #797979;
+}
+
+#hsobre-home {
+    color: #f4511e;
+    /* text-align: left ; */
+    margin-left: 0.45em;
+    margin-bottom: 3.5em;
+    margin-top: 5em;
+    font-size: 1.50em;
+    
+} 
+
+#psobre-home {
+    text-align: left;
+    color: #797979;
+    font-size: 1em;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+#fotosobre-home {
+    margin-top: 15px;
+    padding: 40px;
+}
+
+
+.container-1-home {
+    display: flex;
+}
+
+.rightcontainer-home{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.imagem_container_home {
+    margin-top: 20em;
+    width: 39vw;
+    margin-left: -89em;
+}
+
+
+/*   ESTILIZAÇÃO DO BOTÃO    */
+.button-home {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1em;
+    /* padding: 10px; */
+    width: 15vw;
+    transition: all 0.5s;
+    margin: 5px;
+    justify-content: center;
+}
+
+
+/*   ESTILIZAÇÃO DO FOOTER   */
+footer {
+    background-color: #797979;
+    
+}
+
+footer > div > ol {
+    display: flex;
+    list-style: none;
+}
+
+footer > div > ol > li {
+    padding-left: 50px;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 25px;
+}
+
+footer ol a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer > div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones_footer_home{
+    font-size: 1.5em;
+    color:  #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icones_footer_home, i, a{
+    /* margin-left: -89.3em; 
+    color: #fff;
+}
+
+
+
+/*   RESPONSIVIDADE  IPAD e IPAD PRO  */
+@media screen and (max-width: 768px) {
+    
+    .menu-home ul a{
+        padding: 1.75em 1.75em;
+    }
+    
+    .categorias_home_boxs{
+        width: 50%;
+    }
+    
+    .container-1-home{
+        flex-wrap: wrap;
+    }
+    
+    .button-home{
+        display: inline-block;
+        border-radius: 5px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-size: 1em;
+        padding: 10px;
+        width: 45vw;
+        transition: all 0.5s;
+        margin: 5px;
+        justify-content: center;
+    }
+}
+
+
+/*   RESPONSIVIDADE  iPHONE 6/7/8 e Galaxy S5  */
+@media screen and (max-width: 376px){
+    
+    #home_banner {
+        display: none;
+    }
+    
+    #topo-home{
+        padding-bottom: 10mm; 
+        width: 100vw;
+        height: 40vh;
+    }
+    
+    footer{
+        width: 100%;
+    }
+    
+    footer{
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .li-footer{
+        font-size: 0.50em;
+        flex-wrap: wrap;
+    }
+    
+    
+    .imagem_logo_home{
+        width: 35vw;
+        
+    }
+    
+    #ul-home{
+        list-style-type: none;
+        display: block;
+        height: 50vh;
+        align-items: center;
+        margin: 40vh 5vw 10vh 5vw;
+    }
+    
+    #home_banner{
+        display: none;
+    }
+    
+    #fotosobre-home{
+        width: 20vw;
+        height: 30vh;
+    }
+    
+    
+    .container-1-home {
+        flex-wrap: wrap;
+    }
+    
+    .categorias_home_boxs{
+        /* flex-wrap: wrap; */
+    }
+    
+    .imagem_sobrehome{
+        margin-top: 36px;
+        width: 78vw;
+    }
+    
+    .button-home{
+        display: inline-block;
+        border-radius: 5px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-size: 1em;
+        padding: 10px;
+        width: 45vw;
+        transition: all 0.5s;
+        margin: 5px;
+        justify-content: center;
+        
+    }
+    
+}
+
+}

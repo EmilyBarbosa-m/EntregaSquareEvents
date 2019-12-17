@@ -1,0 +1,40 @@
+/*   ESTILIZAÇÃO DO MENU/HEADER/TOPO   */
+#topo-home{
+    width: 100%;
+    height: 10%;
+    background: #fff;
+    box-shadow: 0px 2px 5px #ccc;  
+    display: flex;
+    justify-content: center;      
+}
+
+.menu-home{
+    display: flex;
+    width: 70vw;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem_logo_home{
+    width: 4vw;
+    margin-right: 49em;
+}
+
+#hlogo{
+    display: none;
+}
+
+#ul-home{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.home-as{
+    font-size: 1em;
+    text-decoration: none;
+    /* padding: 1.70em 2em; */
+    color:  #000000;
+}
